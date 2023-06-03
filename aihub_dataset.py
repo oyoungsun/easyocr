@@ -21,6 +21,7 @@ n_test = int(len(image_files) * 0.15)
 
 print(n_train, n_validation, n_test)
 
+
 train_files = image_files[:n_train]
 validation_files = image_files[n_train:n_train+n_validation]
 test_files = image_files[-n_test:]
